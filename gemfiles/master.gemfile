@@ -16,5 +16,7 @@
 
 eval_gemfile File.expand_path('../../Gemfile', __FILE__)
 
-gem 'chef', github: 'chef/chef'
-gem 'halite', github: 'poise/halite'
+gem 'chef', path: '../chef'
+#github: 'chef/chef'
+gem 'halite', path: '../halite-2'
+#github: 'poise/halite'

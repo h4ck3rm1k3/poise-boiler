@@ -25,4 +25,4 @@ def dev_gem(name, path: File.join('..', name))
   end
 end
 
-dev_gem 'halite'
+dev_gem 'halite', path: '../halite-2'
