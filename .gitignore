@@ -3,3 +3,4 @@ Gemfile.lock
 doc/
 pkg/*
 /poise-boiler-1.1.8.pre.gem
+/Makefile~
