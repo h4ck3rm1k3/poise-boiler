@@ -1,7 +1,7 @@
 pkg :
 	gem build poise-boiler.gemspec
 	gem install --user-install *.gem
-	rake build
+	bundle exec rake build
 
 other:
 #	bundle install
